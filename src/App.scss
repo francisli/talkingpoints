@@ -1,0 +1,37 @@
+@import 'variables.scss';
+
+.logo {
+  width: 48px;
+  height: 48px;
+}
+
+.navbar .container {
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.topics {
+  .nav-item {
+    border-left: .5px solid $border-color;
+    border-right: .5px solid $border-color;
+    border-bottom: .5px solid $border-color;
+
+    &:first-child {
+      border-top: .5px solid $border-color;
+    }
+
+    .nav-link {
+      display: flex;
+      justify-content: space-between;
+
+      &:after {
+        content: "\27E9";
+        font-weight: 700;
+      }
+      &.active {
+        background: $blue;
+        color: white;
+      }
+    }
+  }
+}

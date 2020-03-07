@@ -1,0 +1,2 @@
+web: npx nodemon -V --ignore ./src --ignore ./public ./bin/www
+webpack: npx react-scripts start

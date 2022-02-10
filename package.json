@@ -19,7 +19,7 @@
     "minisearch": "^2.1.4",
     "morgan": "^1.9.1",
     "node-cache": "^5.1.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "nodemon": "^2.0.2",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
